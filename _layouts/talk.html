@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign talk_day = page.date | date: "%Y-%m-%d" %}
+<article class="wrap page-section post">
+  <p class="crumb"><a href="{{ '/seminar/' | relative_url }}">HCI Seminar</a></p>
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+      {% assign talk_time = page.time | strip %}{% if talk_time.size > 0 %} · {{ talk_time }}{% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.speaker and page.speaker != "" %}
+      <p class="byline">
+        {% if page.speaker_url and page.speaker_url != "" %}
+          <a href="{{ page.speaker_url }}">{{ page.speaker }}</a>
+        {% else %}
+          {{ page.speaker }}
+        {% endif %}
+      </p>
+    {% endif %}
+    {% if page.location and page.location != "" %}
+      <p class="talk-where">{{ page.location }}</p>
+    {% endif %}
+    {% if page.note and page.note != "" %}
+      <p class="talk-note">{{ page.note }}</p>
+    {% endif %}
+  </header>
+  {% if talk_day < today %}
+    <p class="note">This session has already happened.</p>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

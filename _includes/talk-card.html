@@ -1,0 +1,38 @@
+{% assign talk = include.talk %}
+<article class="talk-card kind-{{ talk.kind }}{% if include.past %} is-past{% endif %}{% if include.featured %} is-featured{% endif %}">
+  <p class="talk-kicker">
+    <time datetime="{{ talk.date | date: '%Y-%m-%d' }}">{{ talk.date | date: "%A, %B %-d, %Y" }}</time>
+    {% assign talk_time = talk.time | strip %}
+    {% if talk_time.size > 0 %}
+      <span aria-hidden="true"> · </span><span class="visually-hidden"> at </span>{{ talk_time }}
+    {% endif %}
+  </p>
+  <h3><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></h3>
+  {% if talk.speaker and talk.speaker != "" %}
+    <p class="talk-speaker">
+      {% if talk.speaker_url and talk.speaker_url != "" %}
+        <a href="{{ talk.speaker_url }}">{{ talk.speaker }}</a>
+      {% else %}
+        {{ talk.speaker }}
+      {% endif %}
+    </p>
+  {% endif %}
+  {% if talk.location and talk.location != "" %}
+    <p class="talk-where">{{ talk.location }}</p>
+  {% endif %}
+  {% if talk.note and talk.note != "" %}
+    <p class="talk-note">{{ talk.note }}</p>
+  {% endif %}
+  <p class="badge">
+    {% if talk.kind == "none" %}
+      No seminar
+    {% elsif talk.kind == "social" %}
+      Social
+    {% else %}
+      Talk
+    {% endif %}
+    {% if include.past %}
+      <span class="badge-quiet">Past</span>
+    {% endif %}
+  </p>
+</article>

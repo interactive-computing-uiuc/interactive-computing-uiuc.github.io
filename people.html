@@ -1,0 +1,32 @@
+---
+layout: default
+title: People
+section: people
+permalink: /people/
+description: Faculty and campus affiliates in Interactive Computing at Illinois.
+---
+{% assign faculty = site.data.people | where: "group", "faculty" | sort: "sort_name" %}
+{% assign affiliates = site.data.people | where: "group", "affiliate" | sort: "sort_name" %}
+
+<div class="wrap page-section">
+  <h1>People</h1>
+  <p class="lede">Faculty and affiliates listed for Interactive Computing by the Siebel School. Interests are the lines published on that page. A name links to the university profile. Grouping follows the home unit named there: colleagues with an explicit unit outside the Siebel School are listed as affiliates.</p>
+
+  <section aria-labelledby="faculty-heading">
+    <h2 id="faculty-heading" class="section-title">Siebel School faculty</h2>
+    <div class="person-grid">
+      {% for person in faculty %}
+        {% include person-card.html person=person %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section aria-labelledby="affiliates">
+    <h2 id="affiliates" class="section-title">Campus affiliates</h2>
+    <div class="person-grid">
+      {% for person in affiliates %}
+        {% include person-card.html person=person %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

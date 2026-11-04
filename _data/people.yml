@@ -1,0 +1,347 @@
+# Names, units, and interests follow the Siebel School Interactive Computing
+# area page. Profile URLs were checked against that page. group is "faculty"
+# unless the area page names a home unit outside the Siebel School.
+# Themes are ids from _data/themes.yml. Add a photo only when that person
+# provides one: photo: /assets/photos/their-id.jpg
+
+- id: sarita-adve
+  name: Sarita V. Adve
+  sort_name: "Adve, Sarita"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Immersive computing
+  url: https://siebelschool.illinois.edu/about/people/faculty/sadve
+  themes:
+    - xr
+
+- id: nancy-amato
+  name: Nancy M. Amato
+  sort_name: "Amato, Nancy"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human Robot Interaction, XR, Brain Machine Interfaces
+  url: https://siebelschool.illinois.edu/about/people/faculty/namato
+  themes:
+    - xr
+
+- id: tal-august
+  name: Tal August
+  sort_name: "August, Tal"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human-centered AI, evaluation, augmented communication
+  url: https://siebelschool.illinois.edu/about/people/faculty/taugust
+  themes:
+    - human-ai
+
+- id: brian-bailey
+  name: Brian P. Bailey
+  sort_name: "Bailey, Brian"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Creativity support tools, research methods, team-based learning, algorithmic team formation
+  url: https://siebelschool.illinois.edu/about/people/faculty/bpbailey
+  themes:
+    - design-creativity
+    - education
+
+- id: eshwar-chandrasekharan
+  name: Eshwar Chandrasekharan
+  sort_name: "Chandrasekharan, Eshwar"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: HCI, Social Computing, Human-Centered AI, Computational Social Science
+  url: https://siebelschool.illinois.edu/about/people/faculty/eshwar
+  themes:
+    - social-computing
+    - human-ai
+
+- id: camille-cobb
+  name: Camille Cobb
+  sort_name: "Cobb, Camille"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Privacy, smart homes, safety, user perceptions
+  url: https://siebelschool.illinois.edu/about/people/faculty/camillec
+  themes:
+    - privacy
+
+- id: katie-cunningham
+  name: Katie Cunningham
+  sort_name: "Cunningham, Katie"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Design of novel learning environments, AI-powered support for instructors
+  url: https://siebelschool.illinois.edu/about/people/faculty/katcun
+  themes:
+    - education
+    - human-ai
+
+- id: wade-fagen-ulmschneider
+  name: Wade Fagen-Ulmschneider
+  sort_name: "Fagen-Ulmschneider, Wade"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Interactive Data Visualization
+  url: https://siebelschool.illinois.edu/about/people/faculty/waf
+  themes:
+    - visualization
+
+- id: david-forsyth
+  name: David A. Forsyth
+  sort_name: "Forsyth, David"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Computer Graphics
+  url: https://siebelschool.illinois.edu/about/people/faculty/daf
+  themes:
+    - visualization
+
+- id: john-hart
+  name: John Hart
+  sort_name: "Hart, John"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Graphics, Visualization, VR
+  url: https://siebelschool.illinois.edu/about/people/faculty/jch
+  themes:
+    - visualization
+    - xr
+
+- id: dominic-kao
+  name: Dominic Kao
+  sort_name: "Kao, Dominic"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human-Computer Interaction, Interactive Experiences, Virtual Worlds, Games
+  url: https://siebelschool.illinois.edu/about/people/faculty/kalikao
+  themes:
+    - design-creativity
+    - xr
+
+- id: alex-kirlik
+  name: Alex Kirlik
+  sort_name: "Kirlik, Alex"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human-Computer Interaction, Human Factors, Cognitive Science and Engineering, Modeling and Supporting Human Judgment and Decision Making, Human-Automation Interaction
+  url: https://siebelschool.illinois.edu/about/people/faculty/kirlik
+  themes:
+    - human-ai
+
+- id: ranjitha-kumar
+  name: Ranjitha Kumar
+  sort_name: "Kumar, Ranjitha"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Design Mining, Human-Centered AI
+  url: https://siebelschool.illinois.edu/about/people/faculty/ranjitha
+  themes:
+    - design-creativity
+    - human-ai
+
+- id: livingston-mcpherson
+  name: Livingston McPherson
+  sort_name: "McPherson, Livingston"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human Robot Interaction, Virtual Reality, Game Development
+  url: https://siebelschool.illinois.edu/about/people/faculty/dlivm
+  themes:
+    - xr
+
+- id: klara-nahrstedt
+  name: Klara Nahrstedt
+  sort_name: "Nahrstedt, Klara"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Quality of Experience, Tele-Immersion, Multi-View Visualization, Embedded Sensors, Distributed and Parallel Systems
+  url: https://siebelschool.illinois.edu/about/people/faculty/klara
+  themes:
+    - xr
+    - visualization
+
+- id: mashfiqui-rabbi
+  name: Mashfiqui Rabbi
+  sort_name: "Rabbi, Mashfiqui"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Mobile health, behavioral health, Ubiquitous computing
+  url: https://siebelschool.illinois.edu/about/people/faculty/mrabbi
+  themes:
+    - health
+
+- id: jim-rehg
+  name: Jim Rehg
+  sort_name: "Rehg, Jim"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Mobile Health, Extended Reality (XR)
+  url: https://siebelschool.illinois.edu/about/people/faculty/jrehg
+  themes:
+    - health
+    - xr
+
+- id: koustuv-saha
+  name: Koustuv Saha
+  sort_name: "Saha, Koustuv"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Social Computing, Computational Social Science, Human-centered AI, Ubiquitous Computing, Fairness, Accountability, Transparency, and Ethics in AI (FATE)
+  url: https://siebelschool.illinois.edu/about/people/faculty/ksaha2
+  themes:
+    - social-computing
+    - human-ai
+
+- id: jooyoung-seo
+  name: JooYoung Seo
+  sort_name: "Seo, JooYoung"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Interactive Computing
+  url: https://siebelschool.illinois.edu/about/people/faculty/jseo1005
+  themes: []
+
+- id: eric-shaffer
+  name: Eric Shaffer
+  sort_name: "Shaffer, Eric"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Visualization, Computer Graphics
+  url: https://siebelschool.illinois.edu/about/people/faculty/shaffer1
+  themes:
+    - visualization
+
+- id: craig-shultz
+  name: Craig Shultz
+  sort_name: "Shultz, Craig"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Interactive Computing
+  url: https://siebelschool.illinois.edu/about/people/faculty/shultz88
+  themes: []
+
+- id: sarah-sterman
+  name: Sarah Sterman
+  sort_name: "Sterman, Sarah"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Creativity support tools, reflection, writing, education
+  url: https://siebelschool.illinois.edu/about/people/faculty/ssterman
+  themes:
+    - design-creativity
+    - education
+
+- id: sharifa-sultana
+  name: Sharifa Sultana
+  sort_name: "Sultana, Sharifa"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: HCI and HAI research
+  url: https://siebelschool.illinois.edu/about/people/faculty/sharifas
+  themes:
+    - human-ai
+
+- id: hari-sundaram
+  name: Hari Sundaram
+  sort_name: "Sundaram, Hari"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Individual decision making, computational social science, mechanisms and interfaces for group work
+  url: https://siebelschool.illinois.edu/about/people/faculty/hs1
+  themes:
+    - social-computing
+
+- id: dong-wang
+  name: Dong Wang
+  sort_name: "Wang, Dong"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Social Sensing and Intelligence, Human-centered AI, Human-AI Collaboration, Crowdsourcing
+  url: https://siebelschool.illinois.edu/about/people/faculty/dwang24
+  themes:
+    - social-computing
+    - human-ai
+
+- id: ge-wang
+  name: Ge Wang
+  sort_name: "Wang, Ge"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human-centered Artificial Intelligence
+  url: https://siebelschool.illinois.edu/about/people/faculty/wangge
+  themes:
+    - human-ai
+
+- id: shuang-zhao
+  name: Shuang Zhao
+  sort_name: "Zhao, Shuang"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Computer Graphics, Scientific Computing
+  url: https://siebelschool.illinois.edu/about/people/faculty/shzhao
+  themes:
+    - visualization
+
+- id: fengyuan-zhu
+  name: Fengyuan Zhu
+  sort_name: "Zhu, Fengyuan"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Interfaces for AI agents, Asynchronous Human-Agent Collaboration and Extended Reality
+  url: https://siebelschool.illinois.edu/about/people/faculty/zhufy
+  themes:
+    - human-ai
+    - xr
+
+- id: donna-cox
+  name: Donna Cox
+  sort_name: "Cox, Donna"
+  group: affiliate
+  unit: NCSA and School of Art & Design
+  interests: Scientific Visualization, Computer Graphics, Information Design
+  url: https://siebelschool.illinois.edu/about/people/faculty/donnacox
+  themes:
+    - visualization
+
+- id: yun-huang
+  name: Yun Huang
+  sort_name: "Huang, Yun"
+  group: affiliate
+  unit: School of Information Sciences
+  interests: Social Computing, Mobile Computing, Computer Supported Cooperative Work, and Crowdsourcing
+  url: https://siebelschool.illinois.edu/about/people/faculty/yunhuang
+  themes:
+    - social-computing
+
+- id: chad-lane
+  name: H. Chad Lane
+  sort_name: "Lane, H. Chad"
+  group: affiliate
+  unit: Educational Psychology
+  interests: AI in Education, Educational Games, Affective Computing, Intelligent Tutoring Systems
+  url: https://siebelschool.illinois.edu/about/people/faculty/hclane
+  themes:
+    - education
+
+- id: michael-twidale
+  name: Michael Twidale
+  sort_name: "Twidale, Michael"
+  group: affiliate
+  unit: School of Information Sciences
+  interests: Computer Supported Collaboration
+  url: https://siebelschool.illinois.edu/about/people/faculty/twidale
+  themes:
+    - social-computing
+
+- id: yang-wang
+  name: Yang Wang
+  sort_name: "Wang, Yang"
+  group: affiliate
+  unit: School of Information Sciences
+  interests: Usable Privacy and Security, Social Computing, Accessibility, Explainable AI
+  url: https://siebelschool.illinois.edu/about/people/faculty/yvw
+  themes:
+    - privacy
+    - social-computing
+    - human-ai

@@ -1,0 +1,31 @@
+- id: social-computing
+  title: Social computing
+  summary: Communities, platforms, and the algorithms that shape participation, moderation, and collaboration.
+
+- id: design-creativity
+  title: Design and creativity
+  summary: Tools and methods that help people and teams design, write, reflect, and make work together.
+
+- id: visualization
+  title: Visualization
+  summary: Interactive displays for data, scientific models, and the structure of complex systems.
+
+- id: xr
+  title: Immersive computing
+  summary: Virtual and augmented environments, telepresence, and human-robot interaction.
+
+- id: human-ai
+  title: Human–AI collaboration
+  summary: Interfaces and evaluations for machine learning that people can understand, contest, and work with.
+
+- id: privacy
+  title: Privacy and safety
+  summary: How people perceive and manage privacy, security, and safety, including in the home.
+
+- id: health
+  title: Health
+  summary: Mobile and ubiquitous computing for behavioral health, rehabilitation, and care.
+
+- id: education
+  title: Education
+  summary: Learning environments, tutoring systems, and computational support for instructors and students.

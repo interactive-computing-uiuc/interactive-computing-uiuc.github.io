@@ -1,0 +1,56 @@
+title: Interactive Computing @ Illinois
+description: >-
+  Human-computer interaction research at the University of Illinois
+  Urbana-Champaign. Paper writeups and the HCI Seminar.
+lang: en
+
+# Leave both blank for a user or organization site served from the domain
+# root (https://org.github.io/). For a project site
+# (https://org.github.io/repo-name/), set url to "https://org.github.io"
+# and baseurl to "/repo-name".
+url: ""
+baseurl: ""
+
+timezone: America/Chicago
+markdown: kramdown
+# A writeup dated on a future publication day should still appear.
+future: true
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# No theme. Layouts in this repo are the whole design. GitHub Pages would
+# otherwise fall back to Minima for any missing layout.
+plugins: []
+
+exclude:
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - templates
+  - agent-tools
+  - node_modules
+
+collections:
+  talks:
+    output: true
+    permalink: /seminar/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: posts
+    values:
+      layout: post
+      section: news
+  - scope:
+      type: talks
+    values:
+      layout: talk
+      section: seminar

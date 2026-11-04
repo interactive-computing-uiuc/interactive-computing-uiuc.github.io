@@ -1,0 +1,14 @@
+# Add one of these blocks to _data/people.yml.
+# group is "faculty" or "affiliate".
+# themes use ids from _data/themes.yml. Leave the list empty if none fit.
+# photo is optional. Put a file in assets/photos/ and set photo: /assets/photos/slug.jpg
+- id: ada-lovelace
+  name: Ada Lovelace
+  sort_name: "Lovelace, Ada"
+  group: faculty
+  unit: Siebel School of Computing and Data Science
+  interests: Human-computer interaction
+  url: https://siebelschool.illinois.edu/about/people/faculty/example
+  themes:
+    - human-ai
+  # photo: /assets/photos/ada-lovelace.jpg

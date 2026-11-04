@@ -1,0 +1,84 @@
+---
+layout: default
+title: HCI Seminar
+section: seminar
+permalink: /seminar/
+description: Weekly HCI Seminar at the Siebel Center. Wednesdays at 3:30 p.m. Everyone is welcome.
+---
+{% assign talks = site.talks | sort: "date" %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign found_next = false %}
+{% assign has_more = false %}
+{% assign has_past = false %}
+{% for talk in talks %}
+  {% assign talk_day = talk.date | date: "%Y-%m-%d" %}
+  {% if talk_day >= today %}
+    {% if found_next %}
+      {% if talk.url != upcoming_talk.url %}
+        {% assign has_more = true %}
+      {% endif %}
+    {% elsif talk.kind != "none" %}
+      {% assign found_next = true %}
+      {% assign upcoming_talk = talk %}
+    {% else %}
+      {% assign has_more = true %}
+    {% endif %}
+  {% else %}
+    {% assign has_past = true %}
+  {% endif %}
+{% endfor %}
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Wednesdays · 3:30 p.m. · Siebel Center</p>
+    <h1>HCI Seminar</h1>
+    <p class="lede">A weekly series of talks and discussions on human-computer interaction. Everyone is welcome. Socials are optional for students enrolled in CS 591 IC and do not affect the course grade.</p>
+    <p class="lede">Rooms are on each card. The schedule below is the Fall 2026 series. The previous site remains available as an <a href="https://publish.illinois.edu/hci-talks/">archive</a>.</p>
+  </div>
+</header>
+
+<div class="wrap page-section">
+  <div class="with-sidebar">
+    <div>
+      <section aria-labelledby="next-seminar">
+        <h2 id="next-seminar" class="section-title">Next up</h2>
+        {% if found_next %}
+          {% include talk-card.html talk=upcoming_talk featured=true %}
+        {% else %}
+          <p class="note">Nothing is scheduled after today. Check back when the next term is posted.</p>
+        {% endif %}
+      </section>
+
+      {% if has_more %}
+        <section aria-labelledby="upcoming-heading">
+          <h2 id="upcoming-heading" class="section-title">Still ahead</h2>
+          <div class="talk-list">
+            {% for talk in talks %}
+              {% assign talk_day = talk.date | date: "%Y-%m-%d" %}
+              {% if talk_day >= today %}
+                {% unless found_next and talk.url == upcoming_talk.url %}
+                  {% include talk-card.html talk=talk %}
+                {% endunless %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+      {% if has_past %}
+        <section aria-labelledby="past-heading">
+          <h2 id="past-heading" class="section-title">Earlier this term</h2>
+          <div class="talk-list">
+            {% for talk in talks reversed %}
+              {% assign talk_day = talk.date | date: "%Y-%m-%d" %}
+              {% if talk_day < today %}
+                {% include talk-card.html talk=talk past=true %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+    </div>
+    {% include sidebar.html %}
+  </div>
+</div>

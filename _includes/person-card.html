@@ -1,0 +1,20 @@
+{% assign person = include.person %}
+<article class="person-card" id="{{ person.id }}">
+  {% if person.photo %}
+    <img class="avatar" src="{{ person.photo | relative_url }}" alt="" width="96" height="96">
+  {% else %}
+    {% assign parts = person.name | split: " " %}
+    {% assign initial_a = parts | first | slice: 0 %}
+    {% assign initial_b = parts | last | slice: 0 %}
+    <span class="avatar avatar-initials" aria-hidden="true">{{ initial_a | upcase }}{{ initial_b | upcase }}</span>
+  {% endif %}
+  <h3>
+    {% if person.url %}
+      <a href="{{ person.url }}">{{ person.name }}<span class="visually-hidden"> (university profile)</span></a>
+    {% else %}
+      {{ person.name }}
+    {% endif %}
+  </h3>
+  <p class="person-unit">{{ person.unit }}</p>
+  <p class="person-interests">{{ person.interests }}</p>
+</article>
