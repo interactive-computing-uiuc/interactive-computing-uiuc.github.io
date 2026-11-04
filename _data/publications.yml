@@ -122,15 +122,294 @@
   sort_key: "2026-11-01"
   url: https://aclanthology.org/2026.findings-emnlp.1090/
 
-- title: "Think about it like you're a firefighter: Understanding How Reddit Moderators Use the Modqueue"
+- title: "Cocoa: Co-Planning and Co-Execution with AI Agents"
+  authors:
+    - K. J. Kevin Feng
+    - Kevin Pu
+    - Matt Latzke
+    - Tal August
+    - Pao Siangliulue
+    - Jonathan Bragg
+    - Daniel S. Weld
+    - Amy X. Zhang
+    - Joseph Chee Chang
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-22"
+  award: award
+  url: https://dl.acm.org/doi/10.1145/3772318.3791673
+
+- title: "Designing Beyond Language: Sociotechnical Barriers in AI Health Technologies for Limited English Proficiency"
+  authors:
+    - Michelle Huang
+    - Violeta J. Rodriguez
+    - Koustuv Saha
+    - Tal August
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-21"
+  award: honorable
+  url: https://dl.acm.org/doi/10.1145/3772318.3791091
+
+- title: "From Future of Work to Future of Workers: Addressing Asymptomatic AI Harms to Foster Dignified Human-AI Interaction"
+  authors:
+    - Upol Ehsan
+    - Samir Passi
+    - Koustuv Saha
+    - Todd McNutt
+    - Mark O. Riedl
+    - Sara Alcorn
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-20"
+  award: honorable
+  url: https://dl.acm.org/doi/10.1145/3772318.3791081
+
+- title: "Data Repair"
+  authors:
+    - A.T.M. Mizanur Rahman
+    - Syed Ishtiaque Ahmed
+    - Sharifa Sultana
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-19"
+  award: honorable
+  url: https://dl.acm.org/doi/10.1145/3772318.3790962
+
+- title: "Perspectra: Choosing Your Experts Enhances Critical Thinking in Multi-Agent Research Ideation"
+  authors:
+    - Yiren Liu
+    - Viraj Shah
+    - Sangho Suh
+    - Pao Siangliulue
+    - Tal August
+    - Yun Huang
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-18"
+  award: honorable
+  url: https://dl.acm.org/doi/10.1145/3772318.3791560
+
+- title: "The Language of Approval: Identifying the Drivers of Positive Feedback Online"
+  authors:
+    - Agam Goyal
+    - Charlotte Lambert
+    - Eshwar Chandrasekharan
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-17"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790476
+
+- title: "\"In my defense, only three hours on Instagram\": Designing Toward Digital Self-Awareness and Wellbeing"
+  authors:
+    - Karthik S. Bhat
+    - Jiayue Melissa Shi
+    - Wenxuan Song
+    - Dong Whi Yoo
+    - Koustuv Saha
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-16"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790263
+
+- title: "Mental Health Impacts of AI Companions: Triangulating Social Media Quasi-Experiments, User Perspectives, and Relational Lens"
+  authors:
+    - Yunhao Yuan
+    - Jiaxun Zhang
+    - Talayeh Aledavood
+    - Renwen Zhang
+    - Koustuv Saha
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-15"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790558
+
+- title: "A Design Space for Live Music Agents"
+  authors:
+    - Yewon Kim
+    - Stephen Brade
+    - Alexander Wang
+    - David Zhou
+    - Haven Kim
+    - Bill Wang
+    - Sung-Ju Lee
+    - Hugo F. Flores Garcia
+    - Anna Huang
+    - Chris Donahue
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-14"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791291
+
+- title: "Control in Context: How Smart Home Users Navigate Proxy-based Schemes"
+  authors:
+    - Ali Zaidi
+    - Anna Karanika
+    - Ti-Chung Cheng
+    - Yi-Shyuan Chiang
+    - Camille Cobb
+    - Indranil Gupta
+    - Karrie Karahalios
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-13"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790549
+
+- title: "Game-Based and Gamified Robotics Education: A Comparative Systematic Review and Design Guidelines"
+  authors:
+    - Syed Tanzim Mubarrat
+    - Byung-Cheol Min
+    - Tianyu Shao
+    - E. Cho Smith
+    - Bedrich Benes
+    - Alejandra Magana
+    - Christos Mousas
+    - Dominic Kao
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-12"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791338
+
+- title: "On the Intelligence and Knowledgeability of Virtual Agents"
+  authors:
+    - Fu-Chia Yang
+    - Minsoo Choi
+    - Dominic Kao
+    - Christos Mousas
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-11"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790277
+
+- title: "Out of Control: Effects of Multimodal Self-similarity on Embodiment During Autonomous Avatar Demonstrations in Virtual Reality"
+  authors:
+    - Siqi Guo
+    - Fengze Zhang
+    - Claudia Krogmeier
+    - Dominic Kao
+    - Christos Mousas
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-10"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790629
+
+- title: "\"I Don't Trust Any Professional Research Tool\": A Re-Imagination of Knowledge Production Workflows by, with, and for Blind and Low-Vision Researchers"
+  authors:
+    - Omar Khan
+    - JooYoung Seo
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-09"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791242
+
+- title: "Needling Through the Threads: A Visualization Tool for Navigating Threaded Online Discussions"
+  authors:
+    - Yijun Liu
+    - Frederick Choi
+    - Eshwar Chandrasekharan
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-08"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790365
+
+- title: "From Crafting Text to Crafting Thought: Grounding AI Writing Support to Writing Center Pedagogy"
+  authors:
+    - Yijun Liu
+    - John Gallagher
+    - Sarah Sterman
+    - Tal August
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-07"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790292
+
+- title: "TermSight: Making Service Contracts Approachable"
+  authors:
+    - Ziheng Huang
+    - Tal August
+    - Hari Sundaram
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-06"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791387
+
+- title: "Living Contracts: Beyond Document-Centric Interaction with Legal Agreements"
+  authors:
+    - Ziheng Huang
+    - Robin Kar
+    - Hari Sundaram
+    - Tal August
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-05"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791386
+
+- title: "From Code Generation to Conceptual Learning: Student Use of LLMs in a Web Programming Course"
+  authors:
+    - Hajara-Yasmin Isa
+    - Matthew Weston
+    - Muhammad Rizky Wellyanto
+    - Ishita Karna
+    - Jerry O. Talton
+    - Ranjitha Kumar
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-04"
+  url: https://dl.acm.org/doi/10.1145/3772318.3793207
+
+- title: "Counting How the Seconds Count: Understanding TikTok Behavior via ML-driven Analysis of Video Content"
+  authors:
+    - Maleeha Masood
+    - Shreya Kannan
+    - Zikun Liu
+    - Deepak Vasisht
+    - Indranil Gupta
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-03"
+  url: https://dl.acm.org/doi/10.1145/3772318.3790311
+
+- title: "Supporting Learners' Use of Imperfect Generative Pedagogical Chatbots: The Role of Chatbot Response Uncertainty and Reduced Verbosity"
+  authors:
+    - Tiffany Wenting Li
+    - Yifan Song
+    - Hari Sundaram
+    - Karrie Karahalios
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04-02"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791940
+
+- title: "\"Think about it like you're a firefighter\": Understanding How Reddit Moderators Use the Modqueue"
   authors:
     - Tanvi Bajpai
     - Eshwar Chandrasekharan
   venue: "CHI 2026"
   venue_short: CHI
   year: 2026
-  sort_key: "2026-04"
-  url: https://doi.org/10.1145/3772318.3791931
+  sort_key: "2026-04-01"
+  url: https://dl.acm.org/doi/10.1145/3772318.3791931
 
 - title: "ArgCMV: An Argument Summarization Benchmark for the LLM-era"
   authors:

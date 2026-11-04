@@ -22,6 +22,11 @@ description: Recent papers from Interactive Computing at Illinois, across HCI an
         <li data-venue="{{ paper.venue_short }}">
           <a href="{{ paper.url }}">{{ paper.title }}</a>
           <span class="badge">{{ paper.venue }}</span>
+          {% if paper.award == "award" %}
+            <span class="badge badge-award"><span aria-hidden="true">★</span> Best Paper</span>
+          {% elsif paper.award == "honorable" %}
+            <span class="badge badge-honorable"><span aria-hidden="true">✧</span> Honorable Mention</span>
+          {% endif %}
           <div class="byline">
             {% for author in paper.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}
           </div>

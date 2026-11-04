@@ -186,6 +186,16 @@ a.badge:hover {
   color: var(--muted);
 }
 
+.badge-award {
+  background: var(--il-orange);
+  border-color: var(--il-orange);
+  color: var(--il-blue);
+}
+
+.badge-honorable {
+  border-style: dashed;
+}
+
 /* Official header sits above a local nav, in the same stack as the NLP site. */
 .masthead il-header:not(:defined) {
   display: block;
