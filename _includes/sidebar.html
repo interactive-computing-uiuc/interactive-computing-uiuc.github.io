@@ -1,9 +1,17 @@
 <aside class="sidebar" aria-label="Visit">
-  <section class="widget">
-    <h2>HCI Seminar</h2>
-    <p>Wednesdays at 3:30 p.m. in the Siebel Center. The room is on each week's card. Everyone is welcome.</p>
-    <p><a class="text-link" href="{{ '/seminar/' | relative_url }}">Full schedule</a></p>
-  </section>
+  {% if include.home %}
+    <section class="widget">
+      <h2>Latest news</h2>
+      <p>Latest news will appear here.</p>
+      <p><a class="text-link" href="{{ '/news/' | relative_url }}">All news</a></p>
+    </section>
+  {% else %}
+    <section class="widget">
+      <h2>HCI Seminar</h2>
+      <p>Wednesdays at 3:30 p.m. in the Siebel Center. The room is on each week's card. Everyone is welcome.</p>
+      <p><a class="text-link" href="{{ '/seminar/' | relative_url }}">Full schedule</a></p>
+    </section>
+  {% endif %}
   <section class="widget">
     <h2>Elsewhere</h2>
     <ul class="link-list">

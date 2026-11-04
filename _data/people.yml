@@ -11,6 +11,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Immersive computing
   url: https://siebelschool.illinois.edu/about/people/faculty/sadve
+  photo: /assets/photos/sarita-adve.jpg
   themes:
     - xr
 
@@ -21,6 +22,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Human Robot Interaction, XR, Brain Machine Interfaces
   url: https://siebelschool.illinois.edu/about/people/faculty/namato
+  photo: /assets/photos/nancy-amato.jpg
   themes:
     - xr
 
@@ -31,6 +33,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Human-centered AI, evaluation, augmented communication
   url: https://siebelschool.illinois.edu/about/people/faculty/taugust
+  photo: /assets/photos/tal-august.jpg
   themes:
     - human-ai
 
@@ -41,6 +44,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Creativity support tools, research methods, team-based learning, algorithmic team formation
   url: https://siebelschool.illinois.edu/about/people/faculty/bpbailey
+  photo: /assets/photos/brian-bailey.jpg
   themes:
     - design-creativity
     - education
@@ -52,6 +56,7 @@
   unit: Siebel School of Computing and Data Science
   interests: HCI, Social Computing, Human-Centered AI, Computational Social Science
   url: https://siebelschool.illinois.edu/about/people/faculty/eshwar
+  photo: /assets/photos/eshwar-chandrasekharan.jpg
   themes:
     - social-computing
     - human-ai
@@ -63,6 +68,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Privacy, smart homes, safety, user perceptions
   url: https://siebelschool.illinois.edu/about/people/faculty/camillec
+  photo: /assets/photos/camille-cobb.jpg
   themes:
     - privacy
 
@@ -73,6 +79,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Design of novel learning environments, AI-powered support for instructors
   url: https://siebelschool.illinois.edu/about/people/faculty/katcun
+  photo: /assets/photos/katie-cunningham.jpg
   themes:
     - education
     - human-ai
@@ -84,6 +91,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Interactive Data Visualization
   url: https://siebelschool.illinois.edu/about/people/faculty/waf
+  photo: /assets/photos/wade-fagen-ulmschneider.jpg
   themes:
     - visualization
 
@@ -94,6 +102,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Computer Graphics
   url: https://siebelschool.illinois.edu/about/people/faculty/daf
+  photo: /assets/photos/david-forsyth.jpg
   themes:
     - visualization
 
@@ -104,6 +113,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Graphics, Visualization, VR
   url: https://siebelschool.illinois.edu/about/people/faculty/jch
+  photo: /assets/photos/john-hart.jpg
   themes:
     - visualization
     - xr
@@ -115,6 +125,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Human-Computer Interaction, Interactive Experiences, Virtual Worlds, Games
   url: https://siebelschool.illinois.edu/about/people/faculty/kalikao
+  photo: /assets/photos/dominic-kao.jpg
   themes:
     - design-creativity
     - xr
@@ -136,6 +147,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Design Mining, Human-Centered AI
   url: https://siebelschool.illinois.edu/about/people/faculty/ranjitha
+  photo: /assets/photos/ranjitha-kumar.jpg
   themes:
     - design-creativity
     - human-ai
@@ -147,6 +159,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Human Robot Interaction, Virtual Reality, Game Development
   url: https://siebelschool.illinois.edu/about/people/faculty/dlivm
+  photo: /assets/photos/livingston-mcpherson.jpg
   themes:
     - xr
 
@@ -157,6 +170,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Quality of Experience, Tele-Immersion, Multi-View Visualization, Embedded Sensors, Distributed and Parallel Systems
   url: https://siebelschool.illinois.edu/about/people/faculty/klara
+  photo: /assets/photos/klara-nahrstedt.jpg
   themes:
     - xr
     - visualization
@@ -168,6 +182,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Mobile health, behavioral health, Ubiquitous computing
   url: https://siebelschool.illinois.edu/about/people/faculty/mrabbi
+  photo: /assets/photos/mashfiqui-rabbi.jpg
   themes:
     - health
 
@@ -178,6 +193,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Mobile Health, Extended Reality (XR)
   url: https://siebelschool.illinois.edu/about/people/faculty/jrehg
+  photo: /assets/photos/jim-rehg.jpg
   themes:
     - health
     - xr
@@ -189,6 +205,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Social Computing, Computational Social Science, Human-centered AI, Ubiquitous Computing, Fairness, Accountability, Transparency, and Ethics in AI (FATE)
   url: https://siebelschool.illinois.edu/about/people/faculty/ksaha2
+  photo: /assets/photos/koustuv-saha.jpg
   themes:
     - social-computing
     - human-ai
@@ -200,6 +217,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Interactive Computing
   url: https://siebelschool.illinois.edu/about/people/faculty/jseo1005
+  photo: /assets/photos/jooyoung-seo.jpg
   themes: []
 
 - id: eric-shaffer
@@ -209,6 +227,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Visualization, Computer Graphics
   url: https://siebelschool.illinois.edu/about/people/faculty/shaffer1
+  photo: /assets/photos/eric-shaffer.jpg
   themes:
     - visualization
 
@@ -219,6 +238,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Interactive Computing
   url: https://siebelschool.illinois.edu/about/people/faculty/shultz88
+  photo: /assets/photos/craig-shultz.jpg
   themes: []
 
 - id: sarah-sterman
@@ -228,6 +248,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Creativity support tools, reflection, writing, education
   url: https://siebelschool.illinois.edu/about/people/faculty/ssterman
+  photo: /assets/photos/sarah-sterman.jpg
   themes:
     - design-creativity
     - education
@@ -239,6 +260,7 @@
   unit: Siebel School of Computing and Data Science
   interests: HCI and HAI research
   url: https://siebelschool.illinois.edu/about/people/faculty/sharifas
+  photo: /assets/photos/sharifa-sultana.jpg
   themes:
     - human-ai
 
@@ -249,6 +271,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Individual decision making, computational social science, mechanisms and interfaces for group work
   url: https://siebelschool.illinois.edu/about/people/faculty/hs1
+  photo: /assets/photos/hari-sundaram.jpg
   themes:
     - social-computing
     - human-ai
@@ -260,6 +283,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Social Sensing and Intelligence, Human-centered AI, Human-AI Collaboration, Crowdsourcing
   url: https://siebelschool.illinois.edu/about/people/faculty/dwang24
+  photo: /assets/photos/dong-wang.jpg
   themes:
     - social-computing
     - human-ai
@@ -271,6 +295,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Human-centered Artificial Intelligence
   url: https://siebelschool.illinois.edu/about/people/faculty/wangge
+  photo: /assets/photos/ge-wang.jpg
   themes:
     - human-ai
 
@@ -281,6 +306,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Computer Graphics, Scientific Computing
   url: https://siebelschool.illinois.edu/about/people/faculty/shzhao
+  photo: /assets/photos/shuang-zhao.jpg
   themes:
     - visualization
 
@@ -291,6 +317,7 @@
   unit: Siebel School of Computing and Data Science
   interests: Interfaces for AI agents, Asynchronous Human-Agent Collaboration and Extended Reality
   url: https://siebelschool.illinois.edu/about/people/faculty/zhufy
+  photo: /assets/photos/fengyuan-zhu.jpg
   themes:
     - human-ai
     - xr
@@ -312,6 +339,7 @@
   unit: School of Information Sciences
   interests: Social Computing, Mobile Computing, Computer Supported Cooperative Work, and Crowdsourcing
   url: https://siebelschool.illinois.edu/about/people/faculty/yunhuang
+  photo: /assets/photos/yun-huang.jpg
   themes:
     - social-computing
 
@@ -322,6 +350,7 @@
   unit: Educational Psychology
   interests: AI in Education, Educational Games, Affective Computing, Intelligent Tutoring Systems
   url: https://siebelschool.illinois.edu/about/people/faculty/hclane
+  photo: /assets/photos/chad-lane.jpg
   themes:
     - education
 
@@ -332,6 +361,7 @@
   unit: School of Information Sciences
   interests: Computer Supported Collaboration
   url: https://siebelschool.illinois.edu/about/people/faculty/twidale
+  photo: /assets/photos/michael-twidale.jpg
   themes:
     - social-computing
 
@@ -342,6 +372,7 @@
   unit: School of Information Sciences
   interests: Usable Privacy and Security, Social Computing, Accessibility, Explainable AI
   url: https://siebelschool.illinois.edu/about/people/faculty/yvw
+  photo: /assets/photos/yang-wang.jpg
   themes:
     - privacy
     - social-computing

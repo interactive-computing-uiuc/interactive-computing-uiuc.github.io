@@ -3,32 +3,9 @@ layout: default
 title: News
 section: news
 permalink: /news/
-venue_filter: true
-description: Paper notes and news from Interactive Computing at Illinois.
+description: Latest updates from Interactive Computing at Illinois.
 ---
-{% assign has_example = false %}
-{% for post in site.posts %}
-  {% if post.example %}
-    {% assign has_example = true %}
-  {% endif %}
-{% endfor %}
-
-<div class="wrap page-section" data-news>
+<div class="wrap page-section">
   <h1>News</h1>
-  <p class="lede">Notes on papers and other news from Interactive Computing. A note can be as short as a paragraph.</p>
-  {% if has_example %}
-    <p class="note">Posts marked Example show the writeup format. They describe real papers and can be replaced with notes the group wants to feature.</p>
-  {% endif %}
-
-  {% if site.posts.size == 0 %}
-    <p class="note">No notes yet. The first one is a markdown file in the <code>_posts</code> folder.</p>
-  {% else %}
-    <div class="filters" data-news-filters role="group" aria-label="Filter by venue" hidden></div>
-    <p data-news-empty hidden>Nothing in this venue yet.</p>
-    <div class="stack" data-news-list>
-      {% for post in site.posts %}
-        {% include post-card.html post=post %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  <p class="lede">Latest updates will be available here.</p>
 </div>

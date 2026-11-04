@@ -23,7 +23,7 @@ description: Human-computer interaction research at the University of Illinois, 
     <p class="kicker">University of Illinois Urbana-Champaign</p>
     <h1>Interactive Computing</h1>
     <p class="lede">Human-computer interaction at Illinois spans the Siebel School and partner units across campus. The group designs and studies systems for social computing, creativity, visualization, immersive environments, health, privacy, and learning.</p>
-    <p class="lede">Faculty publish at CHI, CSCW, UIST, and related venues, and the community meets weekly for the HCI Seminar. This site carries the writeups and the schedule.</p>
+    <p class="lede">Faculty and students publish at CHI, CSCW, UIST, and related HCI venues, as well as ACL, EMNLP, NAACL, and related NLP venues. The community meets roughly weekly for the HCI Seminar.</p>
     {% if found_next %}
       <p class="hero-next">Next seminar: <a href="{{ upcoming_talk.url | relative_url }}">{{ upcoming_talk.title }}</a>{% assign next_speaker = upcoming_talk.speaker | strip %}{% if next_speaker.size > 0 %}, {{ next_speaker }}{% endif %}, {{ upcoming_talk.date | date: "%B %-d" }}.</p>
     {% endif %}
@@ -42,22 +42,8 @@ description: Human-computer interaction research at the University of Illinois, 
         {% endif %}
         <p><a class="text-link" href="{{ '/seminar/' | relative_url }}">Full schedule</a></p>
       </section>
-
-      <section aria-labelledby="news-heading">
-        <h2 id="news-heading" class="section-title">Latest notes</h2>
-        {% if site.posts.size == 0 %}
-          <p class="note">Paper notes will show up here. Add a markdown file in <code>_posts</code>.</p>
-        {% else %}
-          <div class="stack">
-            {% for post in site.posts limit: 3 %}
-              {% include post-card.html post=post %}
-            {% endfor %}
-          </div>
-        {% endif %}
-        <p><a class="text-link" href="{{ '/news/' | relative_url }}">All notes</a></p>
-      </section>
     </div>
-    {% include sidebar.html %}
+    {% include sidebar.html home=true %}
   </div>
 </div>
 

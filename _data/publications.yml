@@ -11,7 +11,6 @@
   year: 2026
   sort_key: "2026-04"
   url: https://doi.org/10.1145/3772318.3791931
-  note: /news/2026/04/13/reddit-modqueue/
 
 - title: "ArgCMV: An Argument Summarization Benchmark for the LLM-era"
   authors:
@@ -82,7 +81,6 @@
   year: 2025
   sort_key: "2025-04"
   url: https://doi.org/10.1145/3706598.3713830
-  note: /news/2025/04/26/positive-reinforcement-reddit/
 
 - title: "Measuring Epistemic Trust: Towards a New Lens for Democratic Legitimacy, Misinformation, and Echo Chambers"
   authors:
