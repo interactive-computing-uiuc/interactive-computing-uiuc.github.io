@@ -15,6 +15,10 @@
       {{ person.name }}
     {% endif %}
   </h3>
-  <p class="person-unit">{{ person.unit }}</p>
-  <p class="person-interests">{{ person.interests }}</p>
+  {% if person.unit != blank %}
+    <p class="person-unit">{{ person.unit }}</p>
+  {% endif %}
+  {% if person.interests != blank %}
+    <p class="person-interests">{{ person.interests }}</p>
+  {% endif %}
 </article>

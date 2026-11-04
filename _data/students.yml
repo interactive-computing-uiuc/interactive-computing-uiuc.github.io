@@ -1,0 +1,266 @@
+# Names and photos from the group slide deck. Websites, research areas, and current or alumni status can be added later.
+
+- id: fatima-ali
+  name: "Fatima Ali"
+  sort_name: "Ali, Fatima"
+  photo: /assets/photos/students/fatima-ali.jpg
+
+- id: alex-atcheson
+  name: "Alex Atcheson"
+  sort_name: "Atcheson, Alex"
+  photo: /assets/photos/students/alex-atcheson.jpg
+
+- id: naina-balepur
+  name: "Naina Balepur"
+  sort_name: "Balepur, Naina"
+  photo: /assets/photos/students/naina-balepur.jpg
+
+- id: niharika-bhattacharjee
+  name: "Niharika Bhattacharjee"
+  sort_name: "Bhattacharjee, Niharika"
+  photo: /assets/photos/students/niharika-bhattacharjee.jpg
+
+- id: bhavana-bheem
+  name: "Bhavana Bheem"
+  sort_name: "Bheem, Bhavana"
+  photo: /assets/photos/students/bhavana-bheem.jpg
+
+- id: angela-bi
+  name: "Angela Bi"
+  sort_name: "Bi, Angela"
+  photo: /assets/photos/students/angela-bi.jpg
+
+- id: jackie-chan
+  name: "Jackie Chan"
+  sort_name: "Chan, Jackie"
+  photo: /assets/photos/students/jackie-chan.jpg
+
+- id: ti-chung-cheng
+  name: "Ti-Chung Cheng"
+  sort_name: "Cheng, Ti-Chung"
+  photo: /assets/photos/students/ti-chung-cheng.jpg
+
+- id: yi-shyuan-chiang
+  name: "Yi-Shyuan Chiang"
+  sort_name: "Chiang, Yi-Shyuan"
+  photo: /assets/photos/students/yi-shyuan-chiang.jpg
+
+- id: fred-choi
+  name: "Fred Choi"
+  sort_name: "Choi, Fred"
+  photo: /assets/photos/students/fred-choi.jpg
+
+- id: veda-duddu
+  name: "Veda Duddu"
+  sort_name: "Duddu, Veda"
+  photo: /assets/photos/students/veda-duddu.jpg
+
+- id: james-eschrich
+  name: "James Eschrich"
+  sort_name: "Eschrich, James"
+  photo: /assets/photos/students/james-eschrich.jpg
+
+- id: drishti-goel
+  name: "Drishti Goel"
+  sort_name: "Goel, Drishti"
+  photo: /assets/photos/students/drishti-goel.jpg
+
+- id: william-goss
+  name: "William Goss"
+  sort_name: "Goss, William"
+  photo: /assets/photos/students/william-goss.jpg
+
+- id: agam-goyal
+  name: "Agam Goyal"
+  sort_name: "Goyal, Agam"
+  photo: /assets/photos/students/agam-goyal.jpg
+
+- id: carl-guo
+  name: "Carl Guo"
+  sort_name: "Guo, Carl"
+  photo: /assets/photos/students/carl-guo.jpg
+
+- id: yang-hong
+  name: "Yang Hong"
+  sort_name: "Hong, Yang"
+  photo: /assets/photos/students/yang-hong.jpg
+
+- id: michelle-huang
+  name: "Michelle Huang"
+  sort_name: "Huang, Michelle"
+  photo: /assets/photos/students/michelle-huang.jpg
+
+- id: ziheng-huang
+  name: "Ziheng (Fred) Huang"
+  sort_name: "Huang, Ziheng"
+  photo: /assets/photos/students/ziheng-huang.jpg
+
+- id: hajara-yasmin-isa
+  name: "Hajara-Yasmin Isa"
+  sort_name: "Isa, Hajara-Yasmin"
+  photo: /assets/photos/students/hajara-yasmin-isa.jpg
+
+- id: yoshee-jain
+  name: "Yoshee Jain"
+  sort_name: "Jain, Yoshee"
+  photo: /assets/photos/students/yoshee-jain.jpg
+
+- id: aditya-karan
+  name: "Aditya Karan"
+  sort_name: "Karan, Aditya"
+  photo: /assets/photos/students/aditya-karan.jpg
+
+- id: muawiz-khan
+  name: "Muawiz Khan"
+  sort_name: "Khan, Muawiz"
+  photo: /assets/photos/students/muawiz-khan.jpg
+
+- id: omar-khan
+  name: "Omar Khan"
+  sort_name: "Khan, Omar"
+  photo: /assets/photos/students/omar-khan.jpg
+
+- id: charlotte-kiesel
+  name: "Charlotte Kiesel"
+  sort_name: "Kiesel, Charlotte"
+  photo: /assets/photos/students/charlotte-kiesel.jpg
+
+- id: hannah-kim
+  name: "Hannah Kim"
+  sort_name: "Kim, Hannah"
+  photo: /assets/photos/students/hannah-kim.jpg
+
+- id: jenny-kim
+  name: "Jenny Kim"
+  sort_name: "Kim, Jenny"
+  photo: /assets/photos/students/jenny-kim.jpg
+
+- id: charlotte-lambert
+  name: "Charlotte Lambert"
+  sort_name: "Lambert, Charlotte"
+  photo: /assets/photos/students/charlotte-lambert.jpg
+
+- id: andy-lee
+  name: "Andy Lee"
+  sort_name: "Lee, Andy"
+  photo: /assets/photos/students/andy-lee.jpg
+
+- id: seung-heon-lee
+  name: "Seung Heon Lee"
+  sort_name: "Lee, Seung Heon"
+  photo: /assets/photos/students/seung-heon-lee.jpg
+
+- id: zepei-li
+  name: "Zepei Li"
+  sort_name: "Li, Zepei"
+  photo: /assets/photos/students/zepei-li.jpg
+
+- id: jiayi-liu
+  name: "Jiayi Liu"
+  sort_name: "Liu, Jiayi"
+  photo: /assets/photos/students/jiayi-liu.jpg
+
+- id: yijun-liu
+  name: "Yijun Liu"
+  sort_name: "Liu, Yijun"
+  photo: /assets/photos/students/yijun-liu.jpg
+
+- id: yiren-liu
+  name: "Yiren Liu"
+  sort_name: "Liu, Yiren"
+  photo: /assets/photos/students/yiren-liu.jpg
+
+- id: matt-makila
+  name: "Matt Makila"
+  sort_name: "Makila, Matt"
+  photo: /assets/photos/students/matt-makila.jpg
+
+- id: linna-niu
+  name: "Linna Niu"
+  sort_name: "Niu, Linna"
+  photo: /assets/photos/students/linna-niu.jpg
+
+- id: melina-odell
+  name: "Melina O’Dell"
+  sort_name: "O’Dell, Melina"
+  photo: /assets/photos/students/melina-odell.jpg
+
+- id: olivia-pal
+  name: "Olivia Pal"
+  sort_name: "Pal, Olivia"
+  photo: /assets/photos/students/olivia-pal.jpg
+
+- id: indu-panigrahi
+  name: "Indu Panigrahi"
+  sort_name: "Panigrahi, Indu"
+  photo: /assets/photos/students/indu-panigrahi.jpg
+
+- id: kexin-quan
+  name: "Kexin Quan"
+  sort_name: "Quan, Kexin"
+  photo: /assets/photos/students/kexin-quan.jpg
+
+- id: parisa-rabbani
+  name: "Parisa Rabbani"
+  sort_name: "Rabbani, Parisa"
+  photo: /assets/photos/students/parisa-rabbani.jpg
+
+- id: mizanur-rahman
+  name: "Mizanur Rahman"
+  sort_name: "Rahman, Mizanur"
+  photo: /assets/photos/students/mizanur-rahman.jpg
+
+- id: soorya-ram-shimgekar
+  name: "Soorya Ram Shimgekar"
+  sort_name: "Shimgekar, Soorya Ram"
+  photo: /assets/photos/students/soorya-ram-shimgekar.jpg
+
+- id: yifan-song
+  name: "Yifan Song"
+  sort_name: "Song, Yifan"
+  photo: /assets/photos/students/yifan-song.jpg
+
+- id: claire-tian
+  name: "Claire Tian"
+  sort_name: "Tian, Claire"
+  photo: /assets/photos/students/claire-tian.jpg
+
+- id: claire-wang
+  name: "Claire Wang"
+  sort_name: "Wang, Claire"
+  photo: /assets/photos/students/claire-wang.jpg
+
+- id: yumeng-wang
+  name: "Yumeng Wang"
+  sort_name: "Wang, Yumeng"
+  photo: /assets/photos/students/yumeng-wang.jpg
+
+- id: rizky-wellyanto
+  name: "Rizky Wellyanto"
+  sort_name: "Wellyanto, Rizky"
+  photo: /assets/photos/students/rizky-wellyanto.jpg
+
+- id: yuchen-wu
+  name: "Yuchen Wu"
+  sort_name: "Wu, Yuchen"
+  photo: /assets/photos/students/yuchen-wu.jpg
+
+- id: ali-zaidi
+  name: "Ali Zaidi"
+  sort_name: "Zaidi, Ali"
+  photo: /assets/photos/students/ali-zaidi.jpg
+
+- id: evie-zhang
+  name: "Evie Zhang"
+  sort_name: "Zhang, Evie"
+  photo: /assets/photos/students/evie-zhang.jpg
+
+- id: lechen-zhang
+  name: "Lechen Zhang"
+  sort_name: "Zhang, Lechen"
+  photo: /assets/photos/students/lechen-zhang.jpg
+
+- id: david-zhou
+  name: "David Zhou"
+  sort_name: "Zhou, David"
+  photo: /assets/photos/students/david-zhou.jpg
