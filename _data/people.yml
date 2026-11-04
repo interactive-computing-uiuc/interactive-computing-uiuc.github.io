@@ -130,16 +130,6 @@
     - design-creativity
     - xr
 
-- id: alex-kirlik
-  name: Alex Kirlik
-  sort_name: "Kirlik, Alex"
-  group: faculty
-  unit: Siebel School of Computing and Data Science
-  interests: Human-Computer Interaction, Human Factors, Cognitive Science and Engineering, Modeling and Supporting Human Judgment and Decision Making, Human-Automation Interaction
-  url: https://siebelschool.illinois.edu/about/people/faculty/kirlik
-  themes:
-    - human-ai
-
 - id: ranjitha-kumar
   name: Ranjitha Kumar
   sort_name: "Kumar, Ranjitha"
@@ -329,6 +319,7 @@
   unit: NCSA and School of Art & Design
   interests: Scientific Visualization, Computer Graphics, Information Design
   url: https://siebelschool.illinois.edu/about/people/faculty/donnacox
+  photo: /assets/photos/donna-cox.png
   themes:
     - visualization
 
