@@ -22,12 +22,9 @@ description: Home page for Human-Computer Interaction research at the University
   <div class="wrap">
     <p class="kicker">University of Illinois Urbana-Champaign</p>
     <h1>Interactive Computing</h1>
-    <p class="lede">Human-computer interaction at Illinois spans the Siebel School and partner units across campus. The group designs and studies systems for social computing, creativity, visualization, immersive environments, health, privacy, and learning.</p>
-    <p class="lede">Faculty and students publish at CHI, CSCW, UIST, and related HCI venues, ACL, EMNLP, NAACL, and related NLP venues, as well as ICWSM, WebSci, and related social media venues.</p>
-    <p class="lede">The community meets roughly weekly for the HCI Seminar.</p>
-    {% if found_next %}
-      <p class="hero-next">Next seminar: <a href="{{ upcoming_talk.url | relative_url }}">{{ upcoming_talk.title }}</a>{% assign next_speaker = upcoming_talk.speaker | strip %}{% if next_speaker.size > 0 %}, {{ next_speaker }}{% endif %}, {{ upcoming_talk.date | date: "%B %-d" }}.</p>
-    {% endif %}
+    <p class="lede">Human-computer interaction (HCI), known as Interactive Computing (IC) at Illinois, spans the Siebel School and partner units across campus. We study and design systems for social computing, creativity, visualization, immersive environments, health, privacy, and learning.</p>
+    <p class="lede">Faculty and students publish at a variety of venues in HCI (CHI, CSCW, UIST), NLP (ACL, EMNLP, NAACL), social media (ICWSM, WebSci), and more.</p>
+    <p class="lede">We also meet weekly for the HCI Seminar to discuss recent research and work in progress.</p>
   </div>
 </header>
 
@@ -35,13 +32,13 @@ description: Home page for Human-Computer Interaction research at the University
   <div class="with-sidebar">
     <div>
       <section aria-labelledby="next-heading">
-        <h2 id="next-heading" class="section-title">Next seminar</h2>
+        <h2 id="next-heading" class="section-title">Upcoming seminar</h2>
         {% if found_next %}
           {% include talk-card.html talk=upcoming_talk featured=true %}
         {% else %}
-          <p class="note">The next seminar is not posted yet. The schedule page keeps this term's cards.</p>
+          <p class="note">The upcoming seminar is not posted yet. The schedule page keeps this term's cards.</p>
         {% endif %}
-        <p><a class="text-link" href="{{ '/seminar/' | relative_url }}">Full schedule</a></p>
+        <p class="more-link"><a class="text-link" href="{{ '/seminar/' | relative_url }}">Full schedule</a></p>
       </section>
 
       <section aria-labelledby="news-heading">
@@ -55,7 +52,7 @@ description: Home page for Human-Computer Interaction research at the University
             {% endfor %}
           </div>
         {% endif %}
-        <p><a class="text-link" href="{{ '/news/' | relative_url }}">All news</a></p>
+        <p class="more-link"><a class="text-link" href="{{ '/news/' | relative_url }}">All news</a></p>
       </section>
     </div>
     {% include sidebar.html home=true %}

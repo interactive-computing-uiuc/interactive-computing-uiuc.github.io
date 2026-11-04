@@ -156,6 +156,10 @@ a:hover {
   color: var(--il-altgeld);
 }
 
+.more-link {
+  margin-top: 1.35rem;
+}
+
 .badge {
   display: inline-block;
   margin: 0 0.35rem 0.2rem 0;
@@ -261,22 +265,6 @@ a.badge:hover {
 
 .hero .lede {
   color: rgba(255, 255, 255, 0.92);
-}
-
-.hero-next {
-  margin: 1.25rem 0 0;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-  max-width: 54rem;
-}
-
-.hero-next a {
-  color: #fff;
-  font-weight: 700;
-}
-
-.hero-next a:hover {
-  color: #ffd7c2;
 }
 
 .with-sidebar {
