@@ -7,5 +7,14 @@ description: Latest updates from Interactive Computing at Illinois.
 ---
 <div class="wrap page-section">
   <h1>News</h1>
-  <p class="lede">Latest updates will be available here.</p>
+  <p class="lede">Latest updates from the group.</p>
+  {% if site.posts.size == 0 %}
+    <p class="note">Latest updates will be available here.</p>
+  {% else %}
+    <div class="stack">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

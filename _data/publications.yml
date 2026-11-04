@@ -2,6 +2,126 @@
 # Each url was checked against the publisher page. Add new records at the top
 # of a year, with sort_key set to YYYY-MM.
 
+- title: "The Hidden Toll of Social Media News on Psychosocial Wellbeing"
+  authors:
+    - Olivia Pal
+    - Agam Goyal
+    - Eshwar Chandrasekharan
+    - Koustuv Saha
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-09"
+  url: https://aclanthology.org/2026.emnlp-main.5/
+
+- title: "VASTU: Language Models Struggle to Recognize Online Community Values"
+  authors:
+    - Agam Goyal
+    - Xianyang Zhan
+    - Charlotte Lambert
+    - Koustuv Saha
+    - Eshwar Chandrasekharan
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-08"
+  url: https://aclanthology.org/2026.emnlp-main.231/
+
+- title: "AI Psychosis: Does Conversational AI Amplify Delusion-Related Language?"
+  authors:
+    - Soorya Ram Shimgekar
+    - Vipin Gunda
+    - Jiwon Kim
+    - Violeta J. Rodriguez
+    - Hari Sundaram
+    - Koustuv Saha
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-07"
+  url: https://aclanthology.org/2026.emnlp-main.20/
+
+- title: "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback"
+  authors:
+    - Jiwon Kim
+    - Maya Ajit
+    - Sherry Gong
+    - Soorya Ram Shimgekar
+    - Dong Whi Yoo
+    - Eshwar Chandrasekharan
+    - Koustuv Saha
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-06"
+  url: https://aclanthology.org/2026.emnlp-main.2254/
+
+- title: "FOXGLOVE: Understanding Goal-Oriented and Anchored Writing Feedback from Experts and LLMs on Argumentative Essays"
+  authors:
+    - Yijun Liu
+    - Yifan Song
+    - John R. Gallagher
+    - Sarah Sterman
+    - Tal August
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-05"
+  url: https://aclanthology.org/2026.emnlp-main.781/
+
+- title: "Evaluating the Hidden Costs of Personalization in Large Language Models"
+  authors:
+    - Yumeng Wang
+    - Yuchen Wu
+    - Cheng Qian
+    - Zhiyuan Fan
+    - Hyeonjeong Ha
+    - Shujin Wu
+    - Jiayu Liu
+    - Heng Ji
+    - Ge Wang
+  venue: "EMNLP 2026"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-04"
+  url: https://aclanthology.org/2026.emnlp-main.679/
+
+- title: "Answer Bubbles: Information Exposure in AI-Mediated Search"
+  authors:
+    - Michelle Huang
+    - Agam Goyal
+    - Koustuv Saha
+    - Eshwar Chandrasekharan
+  venue: "EMNLP 2026 Findings"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-03"
+  url: https://aclanthology.org/2026.findings-emnlp.8/
+
+- title: "Facts Without Rules: Boundary Metadata Collapse in Multi-Agent LLM Handoffs"
+  authors:
+    - Yian Wang
+    - Agam Goyal
+    - Eshwar Chandrasekharan
+    - Hari Sundaram
+  venue: "EMNLP 2026 Findings"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-02"
+  url: https://aclanthology.org/2026.findings-emnlp.422/
+
+- title: "TUX: Measuring Human–AI Tacit Understanding"
+  authors:
+    - Yueshen Li
+    - Hanyi Min
+    - Vedant Das Swain
+    - Koustuv Saha
+  venue: "EMNLP 2026 Findings"
+  venue_short: EMNLP
+  year: 2026
+  sort_key: "2026-11-01"
+  url: https://aclanthology.org/2026.findings-emnlp.1090/
+
 - title: "Think about it like you're a firefighter: Understanding How Reddit Moderators Use the Modqueue"
   authors:
     - Tanvi Bajpai

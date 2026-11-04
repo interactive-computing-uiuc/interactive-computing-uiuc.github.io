@@ -311,10 +311,31 @@ a.badge:hover {
   font-size: 1rem;
 }
 
-.link-list {
+.link-list,
+.social-list {
   list-style: none;
   margin: 0 0 0.9rem;
   padding: 0;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.social-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.social-list svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: none;
 }
 
 .link-list li {
@@ -517,6 +538,20 @@ a.badge:hover {
 .prose {
   max-width: 42rem;
   font-size: 1.15rem;
+}
+
+.prose h2 {
+  font-size: 1.35rem;
+  margin-top: 1.6rem;
+}
+
+.prose ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+}
+
+.prose li {
+  margin: 0 0 0.7rem;
 }
 
 .crumb {

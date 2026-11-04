@@ -49,6 +49,7 @@ defaults:
     values:
       layout: post
       section: news
+      permalink: /news/:year/:month/:day/:title/
   - scope:
       type: talks
     values:
