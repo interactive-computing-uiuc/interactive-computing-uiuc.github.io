@@ -2,6 +2,81 @@
 # Each url was checked against the publisher page. Add new records at the top
 # of a year, with sort_key set to YYYY-MM.
 
+- title: "IRIS: Navigating and Reflecting on Writing Traces Using Intelligent Document Histories"
+  authors:
+    - David Zhou
+    - Andrew Chen
+    - John Joon Young Chung
+    - Sarah Sterman
+  venue: "UIST 2026"
+  venue_short: UIST
+  year: 2026
+  sort_key: "2026-11-10"
+  url: https://dl.acm.org/doi/10.1145/3830398.3830611
+
+- title: "Creativity in the BioFoundry: Supporting scientific creativity in the age of automation"
+  authors:
+    - Mingyan Claire Tian
+    - Sarah Sterman
+  venue: "C&C 2026"
+  venue_short: C&C
+  year: 2026
+  sort_key: "2026-07"
+  award: honorable
+  url: https://dl.acm.org/doi/10.1145/3803784.3807549
+
+- title: "Uncovering the Internet's Hidden Values: An Empirical Study of Desirable Behavior Using Highly-Upvoted Content on Reddit"
+  authors:
+    - Agam Goyal
+    - Charlotte Lambert
+    - Yoshee Jain
+    - Eshwar Chandrasekharan
+  venue: "ICWSM 2026"
+  venue_short: ICWSM
+  year: 2026
+  sort_key: "2026-06"
+  url: https://ojs.aaai.org/index.php/ICWSM/article/view/42674
+
+- title: "Breaking Bad Tokens: Detoxification of LLMs Using Sparse Autoencoders"
+  authors:
+    - Agam Goyal
+    - Vedant Rathi
+    - William Yeh
+    - Yian Wang
+    - Yuen Chen
+    - Hari Sundaram
+  venue: "EMNLP 2025"
+  venue_short: EMNLP
+  year: 2025
+  sort_key: "2025-11-02"
+  url: https://aclanthology.org/2025.emnlp-main.641/
+
+- title: "MoMoE: Mixture of Moderation Experts Framework for AI-Assisted Online Governance"
+  authors:
+    - Agam Goyal
+    - Xianyang Zhan
+    - Yilun Chen
+    - Koustuv Saha
+    - Eshwar Chandrasekharan
+  venue: "EMNLP 2025"
+  venue_short: EMNLP
+  year: 2025
+  sort_key: "2025-11-01"
+  url: https://aclanthology.org/2025.emnlp-main.638/
+
+- title: "SLM-Mod: Small Language Models Surpass LLMs at Content Moderation"
+  authors:
+    - Xianyang Zhan
+    - Agam Goyal
+    - Yilun Chen
+    - Eshwar Chandrasekharan
+    - Koustuv Saha
+  venue: "NAACL 2025"
+  venue_short: NAACL
+  year: 2025
+  sort_key: "2025-05"
+  url: https://aclanthology.org/2025.naacl-long.441/
+
 - title: "The Hidden Toll of Social Media News on Psychosocial Wellbeing"
   authors:
     - Olivia Pal
