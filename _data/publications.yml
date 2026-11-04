@@ -2,6 +2,108 @@
 # Each url was checked against the publisher page. Add new records at the top
 # of a year, with sort_key set to YYYY-MM.
 
+- title: "Beyond Throughput: Objectives and Tradeoffs in Volunteer Moderation"
+  authors:
+    - Tanvi Bajpai
+    - Eshwar Chandrasekharan
+  venue: "ICWSM 2027 preprint"
+  venue_short: ICWSM
+  year: 2027
+  sort_key: "2027-06"
+  url: https://arxiv.org/abs/2409.16840
+
+- title: "Who Plays Which Role When? Communication Role Dynamics for Peer Recognition and Team Performance Prediction"
+  authors:
+    - Yifan Song
+    - Wenxuan Wendy Shi
+    - Brian Bailey
+    - Tal August
+  venue: "ACL 2026"
+  venue_short: ACL
+  year: 2026
+  sort_key: "2026-07-05"
+  url: https://aclanthology.org/2026.acl-long.1930/
+
+- title: "ParseJargon: Personalized Real-time Jargon Support in Online Meetings"
+  authors:
+    - Yifan Song
+    - Wing Yee Au
+    - Hon Yung Wong
+    - Brian Bailey
+    - Tal August
+  venue: "ACL 2026 Demo"
+  venue_short: ACL
+  year: 2026
+  sort_key: "2026-07-04"
+  url: https://aclanthology.org/2026.acl-demo.61/
+
+- title: "RubRIX: Rubric-Driven Risk Mitigation in Caregiver-AI Interactions"
+  authors:
+    - Drishti Goel
+    - Jeongah Lee
+    - Qiuyue Zhong
+    - Violeta J. Rodriguez
+    - Daniel S. Brown
+    - Ravi Karkar
+    - Dong Whi Yoo
+    - Koustuv Saha
+  venue: "ACL 2026 Findings"
+  venue_short: ACL
+  year: 2026
+  sort_key: "2026-07-03"
+  url: https://aclanthology.org/2026.findings-acl.1774/
+
+- title: "CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification"
+  authors:
+    - Yian Wang
+    - Yuen Chen
+    - Agam Goyal
+    - Hari Sundaram
+  venue: "ACL 2026 Findings"
+  venue_short: ACL
+  year: 2026
+  sort_key: "2026-07-02"
+  url: https://aclanthology.org/2026.findings-acl.577/
+
+- title: "Masking or Mitigating? Deconstructing the Impact of Query Rewriting on Retriever Biases in RAG"
+  authors:
+    - Agam Goyal
+    - Koyel Mukherjee
+    - Apoorv Saxena
+    - Anirudh Phukan
+    - Eshwar Chandrasekharan
+    - Hari Sundaram
+  venue: "ACL 2026 Findings"
+  venue_short: ACL
+  year: 2026
+  sort_key: "2026-07-01"
+  url: https://aclanthology.org/2026.findings-acl.414/
+
+- title: "Examining Algorithmic Curation on Social Media: An Empirical Audit of Reddit's r/popular Feed"
+  authors:
+    - Jackie Chan
+    - Frederick Choi
+    - Koustuv Saha
+    - Eshwar Chandrasekharan
+  venue: "ICWSM 2026"
+  venue_short: ICWSM
+  year: 2026
+  sort_key: "2026-06-02"
+  url: https://ojs.aaai.org/index.php/ICWSM/article/view/42644
+
+- title: "Understanding Community Resilience: Quantifying the Effects of Sudden Popularity via Algorithmic Curation"
+  authors:
+    - Jackie Chan
+    - Charlotte Lambert
+    - Frederick Choi
+    - Stevie Chancellor
+    - Eshwar Chandrasekharan
+  venue: "ICWSM 2024"
+  venue_short: ICWSM
+  year: 2024
+  sort_key: "2024-06"
+  url: https://ojs.aaai.org/index.php/ICWSM/article/view/31310
+
 - title: "IRIS: Navigating and Reflecting on Writing Traces Using Intelligent Document Histories"
   authors:
     - David Zhou
