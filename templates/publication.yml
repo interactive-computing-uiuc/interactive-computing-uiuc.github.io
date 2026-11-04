@@ -1,0 +1,13 @@
+# Add one of these blocks to _data/publications.yml.
+# venue_short is the filter label: CHI, CSCW, UIST, DIS, C&C, ACL, EMNLP, NAACL, and so on.
+# sort_key is YYYY-MM so the newest papers stay first.
+- title: "Paper title"
+  authors:
+    - First Author
+    - Second Author
+  venue: "ACL 2025"
+  venue_short: ACL
+  year: 2025
+  sort_key: "2025-07"
+  url: https://doi.org/10.18653/v1/example
+  # note: /news/2025/07/01/short-title/

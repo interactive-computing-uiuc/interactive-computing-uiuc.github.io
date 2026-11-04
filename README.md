@@ -59,7 +59,7 @@ excerpt: "One sentence for the home page and the news list."
 ---
 ```
 
-`venue_short` is the label on the News filters (CHI, CSCW, UIST, and so on). `paper_url` puts the same post on the publications list under Research. Write a short note in your own words. Do not paste the abstract.
+`venue_short` is the label on the News filters. A note is a writeup, separate from the publications list. Write it in your own words. Do not paste the abstract.
 
 The two posts already in `_posts/` are examples. They describe real CHI papers by people in the area, and the site labels them Example. Replace those files when the group has notes of its own, or delete `example: true` only if the group wants to keep that writeup.
 
@@ -84,6 +84,24 @@ note:
 
 Fall 2026 is already seeded from the public list at <https://publish.illinois.edu/hci-talks/>. That WordPress site stays linked as the archive until this page replaces it.
 
+## Add a publication
+
+Add a block to [`_data/publications.yml`](_data/publications.yml). A starter block is in [`templates/publication.yml`](templates/publication.yml).
+
+```yaml
+- title: "Paper title"
+  authors:
+    - First Author
+    - Second Author
+  venue: "ACL 2025"
+  venue_short: ACL
+  year: 2025
+  sort_key: "2025-07"
+  url: https://doi.org/10.18653/v1/example
+```
+
+`venue_short` is the filter on the Publications page. Use the short name readers expect: CHI, CSCW, UIST, DIS, C&C, IMWUT, FAccT, VIS, IUI, ACL, EMNLP, NAACL, and so on. `sort_key` is `YYYY-MM` so newer papers stay at the top. The page is a sample, not a full bibliography.
+
 ## Add a person
 
 Add a block to [`_data/people.yml`](_data/people.yml). A starter block is in [`templates/person.yml`](templates/person.yml).
@@ -102,10 +120,11 @@ Interests on the current list are the lines from the [Siebel School area page](h
 | Home | `index.html` |
 | People | `people.html` and `_data/people.yml` |
 | Research | `research.html` and `_data/themes.yml` |
+| Publications | `publications.html` and `_data/publications.yml` |
 | News | `news.html` and `_posts/` |
 | Seminar | `seminar.html` and `_talks/` |
 
-Research themes point at people. The publications list is every post that has a `paper_url`. There is no second database.
+Research themes point at people. Publications are a separate list from the news notes.
 
 ## Brand
 

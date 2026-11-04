@@ -1,0 +1,171 @@
+# A sample of recent papers by people in the group, not a full bibliography.
+# Each url was checked against the publisher page. Add new records at the top
+# of a year, with sort_key set to YYYY-MM.
+
+- title: "Think about it like you're a firefighter: Understanding How Reddit Moderators Use the Modqueue"
+  authors:
+    - Tanvi Bajpai
+    - Eshwar Chandrasekharan
+  venue: "CHI 2026"
+  venue_short: CHI
+  year: 2026
+  sort_key: "2026-04"
+  url: https://doi.org/10.1145/3772318.3791931
+  note: /news/2026/04/13/reddit-modqueue/
+
+- title: "ArgCMV: An Argument Summarization Benchmark for the LLM-era"
+  authors:
+    - Omkar Gurjar
+    - Agam Goyal
+    - Eshwar Chandrasekharan
+  venue: "EMNLP 2025"
+  venue_short: EMNLP
+  year: 2025
+  sort_key: "2025-11"
+  url: https://aclanthology.org/2025.emnlp-main.1110/
+
+- title: "Tree-of-Debate: Multi-Persona Debate Trees Elicit Critical Thinking for Scientific Comparative Analysis"
+  authors:
+    - Priyanka Kargupta
+    - Ishika Agarwal
+    - Tal August
+    - Jiawei Han
+  venue: "ACL 2025"
+  venue_short: ACL
+  year: 2025
+  sort_key: "2025-07"
+  url: https://aclanthology.org/2025.acl-long.1422/
+
+- title: "Research Borderlands: Analysing Writing Across Research Cultures"
+  authors:
+    - Shaily Bhatt
+    - Tal August
+    - Maria Antoniak
+  venue: "ACL 2025"
+  venue_short: ACL
+  year: 2025
+  sort_key: "2025-07"
+  url: https://aclanthology.org/2025.acl-long.1272/
+
+- title: "Crafting a Personal Journaling Practice: Negotiating Ecosystems of Materials, Personal Context, and Community in Analog Journaling"
+  authors:
+    - Katherine Lin
+    - Juna Kawai-Yue
+    - Adira Sklar
+    - Lucy Hecht
+    - Sarah Sterman
+    - Tiffany Tseng
+  venue: "C&C 2025"
+  venue_short: C&C
+  year: 2025
+  sort_key: "2025-06"
+  url: https://doi.org/10.1145/3698061.3726923
+
+- title: "Thoughtful, Confused, or Untrustworthy: How Text Presentation Influences Perceptions of AI Writing Tools"
+  authors:
+    - David Zhou
+    - John R. Gallagher
+    - Sarah Sterman
+  venue: "C&C 2025"
+  venue_short: C&C
+  year: 2025
+  sort_key: "2025-06"
+  url: https://doi.org/10.1145/3698061.3726907
+
+- title: "Does Positive Reinforcement Work? A Quasi-Experimental Study of the Effects of Positive Feedback on Reddit"
+  authors:
+    - Charlotte Lambert
+    - Koustuv Saha
+    - Eshwar Chandrasekharan
+  venue: "CHI 2025"
+  venue_short: CHI
+  year: 2025
+  sort_key: "2025-04"
+  url: https://doi.org/10.1145/3706598.3713830
+  note: /news/2025/04/26/positive-reinforcement-reddit/
+
+- title: "Measuring Epistemic Trust: Towards a New Lens for Democratic Legitimacy, Misinformation, and Echo Chambers"
+  authors:
+    - Dominic Zaun Eu Jones
+    - Eshwar Chandrasekharan
+  venue: "CSCW 2024"
+  venue_short: CSCW
+  year: 2024
+  sort_key: "2024-11"
+  url: https://doi.org/10.1145/3687001
+
+- title: "APPLS: Evaluating Evaluation Metrics for Plain Language Summarization"
+  authors:
+    - Yue Guo
+    - Tal August
+    - Gondy Leroy
+    - Trevor Cohen
+    - Lucy Lu Wang
+  venue: "EMNLP 2024"
+  venue_short: EMNLP
+  year: 2024
+  sort_key: "2024-11"
+  url: https://aclanthology.org/2024.emnlp-main.519/
+
+- title: "Qlarify: Recursively Expandable Abstracts for Dynamic Information Retrieval over Scientific Papers"
+  authors:
+    - Raymond Fok
+    - Joseph Chee Chang
+    - Tal August
+    - Amy X. Zhang
+    - Daniel S. Weld
+  venue: "UIST 2024"
+  venue_short: UIST
+  year: 2024
+  sort_key: "2024-10"
+  url: https://doi.org/10.1145/3654777.3676397
+
+- title: "Advancing Creative Physical Computing Education: Designing, Sharing, and Taxonomizing Instructional Interventions"
+  authors:
+    - Daragh Byrne
+    - Kayla DesPortes
+    - Noura Howell
+    - Marti Louw
+    - Sarah Sterman
+    - César Torres
+  venue: "DIS 2024"
+  venue_short: DIS
+  year: 2024
+  sort_key: "2024-07"
+  url: https://doi.org/10.1145/3656156.3658396
+
+- title: "Ai.llude: Encouraging Rewriting AI-Generated Text to Support Creative Expression"
+  authors:
+    - David Zhou
+    - Sarah Sterman
+  venue: "C&C 2024"
+  venue_short: C&C
+  year: 2024
+  sort_key: "2024-06"
+  url: https://doi.org/10.1145/3635636.3656187
+
+- title: "Designing AI with Metaphors: Leveraging Ambiguity and Defamiliarization to Support Design Creativity"
+  authors:
+    - Mingyan Claire Tian
+    - James Eschrich
+    - Sarah Sterman
+  venue: "C&C 2024"
+  venue_short: C&C
+  year: 2024
+  sort_key: "2024-06"
+  url: https://doi.org/10.1145/3635636.3664250
+
+- title: "Personalized Jargon Identification for Enhanced Interdisciplinary Communication"
+  authors:
+    - Yue Guo
+    - Joseph Chee Chang
+    - Maria Antoniak
+    - Erin Bransom
+    - Trevor Cohen
+    - Lucy Wang
+    - Tal August
+  venue: "NAACL 2024"
+  venue_short: NAACL
+  year: 2024
+  sort_key: "2024-06"
+  url: https://aclanthology.org/2024.naacl-long.255/
