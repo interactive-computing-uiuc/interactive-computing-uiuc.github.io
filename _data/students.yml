@@ -10,6 +10,12 @@
   sort_name: "Atcheson, Alex"
   photo: /assets/photos/students/alex-atcheson.jpg
 
+- id: tanvi-bajpai
+  name: "Tanvi Bajpai"
+  sort_name: "Bajpai, Tanvi"
+  photo: /assets/photos/students/tanvi-bajpai.jpg
+  group: alumni
+
 - id: naina-balepur
   name: "Naina Balepur"
   sort_name: "Balepur, Naina"
