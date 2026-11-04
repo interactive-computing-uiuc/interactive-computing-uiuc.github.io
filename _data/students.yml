@@ -14,16 +14,7 @@
   name: "Naina Balepur"
   sort_name: "Balepur, Naina"
   photo: /assets/photos/students/naina-balepur.jpg
-
-- id: niharika-bhattacharjee
-  name: "Niharika Bhattacharjee"
-  sort_name: "Bhattacharjee, Niharika"
-  photo: /assets/photos/students/niharika-bhattacharjee.jpg
-
-- id: bhavana-bheem
-  name: "Bhavana Bheem"
-  sort_name: "Bheem, Bhavana"
-  photo: /assets/photos/students/bhavana-bheem.jpg
+  group: alumni
 
 - id: angela-bi
   name: "Angela Bi"
@@ -34,11 +25,13 @@
   name: "Jackie Chan"
   sort_name: "Chan, Jackie"
   photo: /assets/photos/students/jackie-chan.jpg
+  group: alumni
 
 - id: ti-chung-cheng
   name: "Ti-Chung Cheng"
   sort_name: "Cheng, Ti-Chung"
   photo: /assets/photos/students/ti-chung-cheng.jpg
+  group: alumni
 
 - id: yi-shyuan-chiang
   name: "Yi-Shyuan Chiang"
@@ -49,6 +42,7 @@
   name: "Fred Choi"
   sort_name: "Choi, Fred"
   photo: /assets/photos/students/fred-choi.jpg
+  group: alumni
 
 - id: veda-duddu
   name: "Veda Duddu"
@@ -109,6 +103,7 @@
   name: "Aditya Karan"
   sort_name: "Karan, Aditya"
   photo: /assets/photos/students/aditya-karan.jpg
+  group: alumni
 
 - id: muawiz-khan
   name: "Muawiz Khan"
@@ -124,6 +119,7 @@
   name: "Charlotte Kiesel"
   sort_name: "Kiesel, Charlotte"
   photo: /assets/photos/students/charlotte-kiesel.jpg
+  group: alumni
 
 - id: hannah-kim
   name: "Hannah Kim"
@@ -139,6 +135,7 @@
   name: "Charlotte Lambert"
   sort_name: "Lambert, Charlotte"
   photo: /assets/photos/students/charlotte-lambert.jpg
+  group: alumni
 
 - id: andy-lee
   name: "Andy Lee"
@@ -200,11 +197,6 @@
   sort_name: "Quan, Kexin"
   photo: /assets/photos/students/kexin-quan.jpg
 
-- id: parisa-rabbani
-  name: "Parisa Rabbani"
-  sort_name: "Rabbani, Parisa"
-  photo: /assets/photos/students/parisa-rabbani.jpg
-
 - id: mizanur-rahman
   name: "Mizanur Rahman"
   sort_name: "Rahman, Mizanur"
@@ -244,11 +236,6 @@
   name: "Yuchen Wu"
   sort_name: "Wu, Yuchen"
   photo: /assets/photos/students/yuchen-wu.jpg
-
-- id: ali-zaidi
-  name: "Ali Zaidi"
-  sort_name: "Zaidi, Ali"
-  photo: /assets/photos/students/ali-zaidi.jpg
 
 - id: evie-zhang
   name: "Evie Zhang"
