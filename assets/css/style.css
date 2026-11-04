@@ -451,6 +451,30 @@ a.badge:hover {
   text-decoration: underline;
 }
 
+.person-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.85rem;
+  list-style: none;
+  margin: 0.45rem 0 0.15rem;
+  padding: 0;
+}
+
+.person-links a {
+  display: inline-flex;
+  color: var(--il-blue);
+}
+
+.person-links a:hover {
+  color: var(--il-altgeld);
+}
+
+.person-links svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
 .person-unit,
 .person-interests {
   font-size: 0.92rem;

@@ -15,6 +15,37 @@
       {{ person.name }}
     {% endif %}
   </h3>
+  {% if person.website or person.x or person.linkedin %}
+    <ul class="person-links">
+      {% if person.website %}
+        <li>
+          <a href="{{ person.website }}" aria-label="{{ person.name }} website">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm7.93 9h-3.18a15.7 15.7 0 0 0-1.2-5.02A8.03 8.03 0 0 1 19.93 11zM12 4.07c.7.95 1.45 2.7 1.85 4.93h-3.7c.4-2.23 1.15-3.98 1.85-4.93zM4.07 13h3.18a15.7 15.7 0 0 0 1.2 5.02A8.03 8.03 0 0 1 4.07 13zm3.18-2H4.07a8.03 8.03 0 0 1 4.38-5.02A15.7 15.7 0 0 0 7.25 11zM12 19.93c-.7-.95-1.45-2.7-1.85-4.93h3.7c-.4 2.23-1.15 3.98-1.85 4.93zM13.55 13h-3.1a13.6 13.6 0 0 1 0-2h3.1a13.6 13.6 0 0 1 0 2zm1.2 5.02A15.7 15.7 0 0 0 16.75 13h3.18a8.03 8.03 0 0 1-4.18 5.02z"/>
+            </svg>
+          </a>
+        </li>
+      {% endif %}
+      {% if person.x %}
+        <li>
+          <a href="{{ person.x }}" aria-label="{{ person.name }} on X">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+        </li>
+      {% endif %}
+      {% if person.linkedin %}
+        <li>
+          <a href="{{ person.linkedin }}" aria-label="{{ person.name }} on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/>
+            </svg>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  {% endif %}
   {% if person.unit != blank %}
     <p class="person-unit">{{ person.unit }}</p>
   {% endif %}
