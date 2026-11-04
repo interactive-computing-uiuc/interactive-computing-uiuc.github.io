@@ -251,3 +251,27 @@
   name: "David Zhou"
   sort_name: "Zhou, David"
   photo: /assets/photos/students/david-zhou.jpg
+
+- id: ali-zaidi
+  name: "Ali Zaidi"
+  sort_name: "Zaidi, Ali"
+  photo: /assets/photos/students/ali-zaidi.jpg
+  group: alumni
+
+- id: vinay-koshy
+  name: "Vinay Koshy"
+  sort_name: "Koshy, Vinay"
+  photo: /assets/photos/students/vinay-koshy.jpg
+  group: alumni
+
+- id: wendy-shi
+  name: "Wendy Shi"
+  sort_name: "Shi, Wendy"
+  photo: /assets/photos/students/wendy-shi.jpg
+  group: alumni
+
+- id: ziang-xiao
+  name: "Ziang Xiao"
+  sort_name: "Xiao, Ziang"
+  photo: /assets/photos/students/ziang-xiao.jpg
+  group: alumni
